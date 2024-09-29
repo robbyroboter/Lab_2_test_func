@@ -27,7 +27,7 @@ jobs:
 
     - name: Run tests and generate report
       run: |
-        python -m pytest --html=report.html
+        pytest --html=report.html
 
     - name: Upload HTML report as artifact
       uses: actions/upload-artifact@v3
