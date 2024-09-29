@@ -26,7 +26,7 @@ def test_bubble_sort():
 def test_calculator():
     assert calculator(1, 1, '+') == 2, "Ошибка при сложении"
     assert calculator(10, 5, '-') == 5, "Ошибка при вычитании"
-    assert calculator(3, 4, '*') == 13, "Ошибка при умножении"
+    assert calculator(3, 4, '*') == 12, "Ошибка при умножении"
     assert calculator(10, 2, '/') == 5, "Ошибка при делении"
 
     # Тестирование деления на ноль
