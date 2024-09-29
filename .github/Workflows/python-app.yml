@@ -3,9 +3,11 @@ name: Python application
 on:
   push:
     branches:
+      - Lab_3_CI_Git
       - main
   pull_request:
     branches:
+      - Lab_3_CI_Git
       - main
 
 jobs:
